@@ -539,7 +539,7 @@ def download_smithsonian_by_search(
     if not search_term or not search_term.strip():
         raise ValueError("search_term must be non-empty")
 
-    api_key = api_key or os.environ.get("SMITHSONIAN_API_KEY")
+    api_key = api_key or os.environ.get("smithsonian_key")
     if not api_key:
         raise ValueError(
             "Smithsonian requires an API key. Pass api_key=... or set env SMITHSONIAN_API_KEY. "
