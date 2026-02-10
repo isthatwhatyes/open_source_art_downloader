@@ -18,10 +18,6 @@ import os
 from urllib.parse import urlparse
 import pandas as pd
 
-from motifs import MOTIF_BANK
-from animals import animal_bank
-from utils import *
-
 import csv
 import pathlib
 import hashlib
