@@ -1,6 +1,6 @@
 # Open Access Art Bulk Downloader (Python)
 
-A small collection of Python utilities for **searching metadata and bulk-downloading high-resolution images** from multiple open-access / public museum sources and Wikimedia Commons, with **polite rate limiting**, **retries**, and **structured outputs** (images + per-item metadata JSON/CSV). :contentReference[oaicite:0]{index=0}
+A small collection of Python utilities for **searching metadata and bulk-downloading high-resolution images** from multiple open-access / public museum sources and Wikimedia Commons, with **polite rate limiting**, **retries**, and **structured outputs** (images + per-item metadata JSON/CSV)
 
 ## What this does
 
